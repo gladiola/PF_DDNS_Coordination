@@ -16,4 +16,4 @@ We need a script with a line like:
 ```
 pfctl -t pfIngress -T replace -f /usr/local/etc/pf/location/pfIngress.txt
 ```
-This is covered in reload_pfIngress.txt.
+This is covered in reload_pfIngress.txt.  We can run the script with a cron job to refresh the pf table on reboot or at a specified time.
